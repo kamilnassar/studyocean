@@ -39,35 +39,14 @@
 </head>
 
 <body>
-  <script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-  
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-      apiKey: "AIzaSyDbzZA4bjwZXptIc9szK6TNmkMUxW9mZlo",
-      authDomain: "study-ocean-5ff53.firebaseapp.com",
-      projectId: "study-ocean-5ff53",
-      storageBucket: "study-ocean-5ff53.appspot.com",
-      messagingSenderId: "56704408324",
-      appId: "1:56704408324:web:d2754891256bd7378b4e51",
-      measurementId: "G-Z5GKRS6TSP"
-    };
-  
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-  </script>
+
   <div class="navbar">
     <a href="index.html">Home</a>
     <a href="about.html">About Us</a>
     <a href="signup.html">Sign Up</a>
     <a href="upload.html">upload here</a>
   </div>
+  
   <form action="/signup" method="post">
     <label for="username">Username:</label>
     <input type="text" id="username" name="username">
