@@ -1,0 +1,83 @@
+body {
+  background-color: #35ae61;
+}
+h1 {
+  text-align: center;
+  color: #333333;
+}
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 0 auto;
+  width: 80%;
+}
+.navbar {
+  text-align: center;
+  padding: 20px;
+  background-color: #F58F29; /* dark blue background color for the navbar */
+}
+.navbar a {
+  text-decoration: none;
+  color: #333333;
+  padding: 10px 20px;
+  border-radius: 5px; /* adds rounded corners to the button */
+  background-color: #32E875; /* adds a background color to the button */
+}
+.navbar a:hover {
+  background-color: #333; /* changes the background color on hover */
+  color: #32E875; /* changes the text color on hover */
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: #333333;
+    padding: 10px 20px;
+    border-radius: 5px; /* adds rounded corners to the button */
+    background-color: #FDB813; /* adds a background color to the button */
+  }
+
+  .navbar a:hover {
+    background-color: #333; /* changes the background color on hover */
+    color: #FDB813; /* changes the text color on hover */
+  }
+  
+  .navbar {
+    text-align: center;
+    padding: 20px;
+    background-color: #87CEEB; /* adds a light blue background color to the navbar */
+  }
+  
+  body {
+    background-color: #FDB813;
+  }
+
+  .navbar {
+    text-align: center;
+    padding: 20px;
+    background-color: #87CEEB; /* adds a light blue background color to the navbar */
+  }
+  
+  .navbar {
+    background-color: blue;
+    color: white;
+ }
+ h1 {
+    color: red;
+ }
+ p {
+    font-size: 18px;
+    line-height: 1.5;
+ }
+ .navbar a {
+    border-radius: 25px; /* this will make the buttons rounded */
+    text-decoration: none; /* this will remove the underline */
+    color: white;
+    padding: 10px 20px; /* this will add some padding to the buttons */
+    background-color: blue; /* this will change the background color of the buttons */
+  }
+
+
+ 
+  
