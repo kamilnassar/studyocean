@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      background-color: #35ae61;
+    }
+    h1 {
+      text-align: center;
+      color: #333333;
+    }
+    p {
+      font-size: 20px;
+      line-height: 1.5;
+      text-align: justify;
+      margin: 0 auto;
+      width: 80%;
+    }
+    .navbar {
+      text-align: center;
+      padding: 20px;
+      background-color: #F58F29; /* dark blue background color for the navbar */
+    }
+    .navbar a {
+      text-decoration: none;
+      color: #333333;
+      padding: 10px 20px;
+      border-radius: 5px; /* adds rounded corners to the button */
+      background-color: #32E875; /* adds a background color to the button */
+    }
+    .navbar a:hover {
+      background-color: #333; /* changes the background color on hover */
+      color: #32E875; /* changes the text color on hover */
+    }
+  </style>
+  <title>Sign Up Page</title>
+
+</head>
+
+<body>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDbzZA4bjwZXptIc9szK6TNmkMUxW9mZlo",
+      authDomain: "study-ocean-5ff53.firebaseapp.com",
+      projectId: "study-ocean-5ff53",
+      storageBucket: "study-ocean-5ff53.appspot.com",
+      messagingSenderId: "56704408324",
+      appId: "1:56704408324:web:d2754891256bd7378b4e51",
+      measurementId: "G-Z5GKRS6TSP"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="signup.html">Sign Up</a>
+    <a href="upload.html">upload here</a>
+  </div>
+  <form action="/signup" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <br>
+    <input type="submit" value="Sign Up">
+  </form>
+  <br>
+</body>
+
+</html>
